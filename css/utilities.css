@@ -1,0 +1,59 @@
+/* Utilities class */
+
+.red-border {
+  border: 2px solid red;
+  margin: 3px;
+}
+.flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+.bg-black {
+  background-color: black;
+  color: white;
+}
+.bg-gray {
+  background-color: #121212;
+  color: white;
+}
+.invert-img {
+  filter: invert(1);
+}
+.border-radius {
+  border-radius: 5px;
+}
+.m-1 {
+  margin: 5px;
+}
+.p-1 {
+  padding: 5px;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.justify-evenly {
+  justify-content: space-evenly;
+}
+.gap-1 {
+  gap: 5px;
+}
+.center {
+  text-align: center;
+}
+.color-gray {
+  color: rgb(178, 175, 175);
+}
+.justify {
+  text-align: justify;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}

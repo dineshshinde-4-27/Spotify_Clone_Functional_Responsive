@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      sizes="32x32"
+      type="image/png"
+      href="Icon/spotify_Icon.png"
+    />
+    <title>mySpotify.com</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utilities.css" />
+  </head>
+
+  <body>
+    <div id="main-container" class="body bg-black">
+      <div class="left">
+        <div class="home bg-gray border-radius m-1">
+          <ul class="p-1">
+            <div class="logo">
+              <img class="invert-img" src="svg/logo.svg" alt="logo" />
+              <img
+                title="Close"
+                src="svg/cancle.svg"
+                class="cancle invert-img"
+                alt=""
+              />
+            </div>
+            <li class="flex p-1">
+              <img class="invert-img" src="svg/home.svg" alt="Home" /> Home
+            </li>
+            <li class="flex p-1">
+              <img class="invert-img" src="svg/search.svg" alt="Search" />
+              Search
+            </li>
+          </ul>
+        </div>
+        <div class="library bg-gray m-1 border-radius">
+          <div class="heading flex justify-between p-1 gap-1">
+            <div class="box flex gap-1">
+              <img src="svg/library.svg" alt="" class="invert-img" />
+              <h3>Your Library</h3>
+            </div>
+            <img src="svg/plus.svg" alt="" class="invert-img plus" />
+          </div>
+          <div class="song-list">
+            <ul></ul>
+          </div>
+          <div class="library-footer flex p-1">
+            <div>
+              <a href=""><span>Legal</span></a>
+            </div>
+            <div>
+              <a href=""><span>Safety &amp; Privacy Center</span></a>
+            </div>
+            <div>
+              <a href=""><span>Privacy Policy</span></a>
+            </div>
+            <div>
+              <a href=""><span>Cookies</span></a>
+            </div>
+            <div>
+              <a href=""><span>About Ads</span></a>
+            </div>
+            <div>
+              <a href=""><span>Accessibility</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="header flex justify-between p-1 bg-gray border-radius m-1">
+          <img src="svg/menu.svg" class="invert-img menue" alt="" />
+          <div class="nav">
+            <img class="invert-img arrow-h" src="svg/leftArrow.svg" alt="" />
+            <img class="invert-img arrow-h" src="svg/ritghtArrow.svg" alt="" />
+          </div>
+          <div class="buttons flex">
+            <div class="sign-up-btn p-1">Sign Up</div>
+            <div class="log-in-btn p-1">Log In</div>
+          </div>
+        </div>
+        <div class="spotify-playlist border-radius m-1">
+          <h1>Spotify Playlist</h1>
+          <div class="card-container flex flex-wrap"></div>
+        </div>
+      </div>
+      <div class="play-bar m-1">
+        <div class="songs-info">
+          <div class="song-name"></div>
+          <div class="navigator flex">
+            <img
+              title="Previous"
+              src="svg/prev.svg"
+              alt="prev"
+              id="Previous"
+              class="prev"
+            />
+            <img
+              title="Play"
+              src="svg/Play.svg"
+              alt="play"
+              id="play"
+              class="play"
+            />
+            <img
+              title="Next"
+              src="svg/next.svg"
+              alt="next"
+              id="Next"
+              class="next"
+            />
+          </div>
+          <div class="time-song-container">
+            <div class="volume">
+              <img src="svg/volume.svg" id="volume-icon" alt="" />
+              <input type="range" />
+            </div>
+            <div class="song-time"></div>
+          </div>
+        </div>
+
+        <div class="seek-bar">
+          <div class="circle"></div>
+          <div class="line-track"></div>
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
